@@ -7,8 +7,8 @@ const containerStyle = {
 };
 
 const center = {
-  lat: -3.745,
-  lng: -38.523,
+  lat: 39.73473,
+  lng: -121.78752,
 };
 
 function Map() {
@@ -34,11 +34,12 @@ function Map() {
       mapContainerStyle={containerStyle}
       center={center}
       zoom={10}
-      onLoad={onLoad}
+      // onLoad={onLoad}
       onUnmount={onUnmount}
+      mapTypeId={"satellite"}
+      clickableIcons={true}
     >
       {/* Child components, such as markers, info windows, etc. */}
-      <></>
     </GoogleMap>
   ) : (
     <></>

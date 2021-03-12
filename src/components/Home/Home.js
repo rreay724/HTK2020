@@ -1,5 +1,5 @@
 import React from "react";
-import firstImage from "../../images/highSierraImage.jpeg";
+import firstImage from "../../images/highSierraImage.jpg";
 import "./home.css";
 
 function Home() {
